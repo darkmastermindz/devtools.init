@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "name": "hyper-powershell",
+    "version": "0.1.0",
+    "description": "Hyper.app plugin for basic PowerShell configuration",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/brandon93s/hyper-powershell"
+    },
+    "author": {
+      "name": "Brandon Smith"
+    },
+    "license": "MIT",
+    "keywords": [
+      "Hyper",
+      "Plugin",
+      "PowerShell",
+      "Windows"
+    ],
+    "_registry": "npm",
+    "_loc": "C:\\Users\\hanse\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyper-powershell-0.1.0-c9783ef373922ab062ac1b2f9ade415a3877b5df\\package.json",
+    "readmeFilename": "readme.md",
+    "readme": "# hyper-powershell\n\n[Hyper](https://hyper.is) plugin to configure PowerShell as your terminal and hide the copyright banner.\n\n![Details](https://i.imgur.com/Z2LG37J.png)\n\n## Install\n\n1. Open Hyper's preferences with `Ctrl+,` or edit manually from `~/.hyper.js`\n\n2. Add `hyper-powershell` to list of plugins:\n```js\nplugins: [\n  'hyper-powershell'\n],\n```\n3. Reload Hyper with `Ctrl+Shift+F5`\n\n\n## License\n\nMIT © [Brandon Smith](https://github.com/brandon93s)",
+    "licenseText": "The MIT License (MIT)\n\nCopyright (c) 2018 Brandon Smith\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-powershell/-/hyper-powershell-0.1.0.tgz#c9783ef373922ab062ac1b2f9ade415a3877b5df",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-powershell/-/hyper-powershell-0.1.0.tgz",
+    "hash": "c9783ef373922ab062ac1b2f9ade415a3877b5df",
+    "registry": "npm",
+    "packageName": "hyper-powershell"
+  },
+  "registry": "npm",
+  "hash": "c9783ef373922ab062ac1b2f9ade415a3877b5df"
+}

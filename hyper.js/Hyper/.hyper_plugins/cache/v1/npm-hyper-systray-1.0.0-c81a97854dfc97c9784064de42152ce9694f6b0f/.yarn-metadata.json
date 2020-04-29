@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "name": "hyper-systray",
+    "productName": "HyperSysTray",
+    "version": "1.0.0",
+    "description": "Hyper.app for minimalists — Supports Windows tray",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "Thomas Meschke"
+    },
+    "homepage": "https://github.com/telekommander/hyper-systray",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/telekommander/hyper-systray.git"
+    },
+    "bugs": {
+      "url": "https://github.com/telekommander/hyper-systray/issues"
+    },
+    "keywords": [
+      "desktop",
+      "windows",
+      "electron",
+      "electron-app",
+      "tray",
+      "systray",
+      "hyper",
+      "hyper plugin",
+      "hyper extension",
+      "hyper tray",
+      "hyper systray"
+    ],
+    "license": "MIT",
+    "_registry": "npm",
+    "_loc": "C:\\Users\\hanse\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyper-systray-1.0.0-c81a97854dfc97c9784064de42152ce9694f6b0f\\package.json",
+    "readmeFilename": "readme.md",
+    "readme": "[Hyper](https://hyper.is) systray plugin for Windows Users — Open Hyper from system tray or a global shortcut.\n\n[MacOS Users should use this plugin instead:](https://github.com/tarutin/hyper-tray/) https://github.com/tarutin/hyper-tray/\n\n<p>\n    <img src=\"https://img.shields.io/npm/dt/hyper-systray.svg\"/>\n</p>\n\n<p>\n    <img src=\"https://raw.githubusercontent.com/telekommander/hyper-systray/master/assets/preview.gif\" width=\"666\" alt=\"Hyper Windows Systray\"/>\n</p>\n\n---\n\n## Tips\n* Click on tray icon to toggle Hyper.js-Window\n* Define a global shortcut in user-settings or use the default:  `Alt + Space` to toggle Hyper.js-Window\n* Right click on tray icon and `Quit`\n\n## Config\nDefine your own global-shortcut to `~/.hyper.js`\n```bash\nconfig {\n    systray: {\n      hotkey: 'Ctrl+Space'\n    }\n}\n```\n\n## Contributing\n```bash\n$ cd ~/.hyper_plugins/local/\n$ git clone https://github.com/telekommander/hyper-systray.git\n$ cd hyper-systray\n$ npm install\n```\nAdd the name of the directory to `localPlugins` in `~/.hyper.js` and Reload terminal window.\n\n## License\nMIT\n",
+    "licenseText": "MIT License\n\nCopyright (c) 2018 Thomas Meschke\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-systray/-/hyper-systray-1.0.0.tgz#c81a97854dfc97c9784064de42152ce9694f6b0f",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-systray/-/hyper-systray-1.0.0.tgz",
+    "hash": "c81a97854dfc97c9784064de42152ce9694f6b0f",
+    "registry": "npm",
+    "packageName": "hyper-systray"
+  },
+  "registry": "npm",
+  "hash": "c81a97854dfc97c9784064de42152ce9694f6b0f"
+}

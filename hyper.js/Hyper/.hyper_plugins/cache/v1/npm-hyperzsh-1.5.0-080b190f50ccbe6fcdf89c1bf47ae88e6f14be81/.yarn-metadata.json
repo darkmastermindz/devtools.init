@@ -1,0 +1,47 @@
+{
+  "manifest": {
+    "name": "hyperzsh",
+    "version": "1.5.0",
+    "description": "A hyperminimal zsh prompt",
+    "main": "index.js",
+    "scripts": {
+      "test": "gulp test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tylerreckart/hyperzsh.git"
+    },
+    "keywords": [
+      "zsh",
+      "theme",
+      "hyperterm"
+    ],
+    "author": {
+      "name": "Tyler Reckart"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tylerreckart/hyperzsh/issues"
+    },
+    "homepage": "https://github.com/tylerreckart/hyperzsh#readme",
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-lintspaces": "^0.4.1"
+    },
+    "_registry": "npm",
+    "_loc": "C:\\Users\\hanse\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyperzsh-1.5.0-080b190f50ccbe6fcdf89c1bf47ae88e6f14be81\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "#### H Y P E R Z S H  \n[![Hyperzsh](https://circleci.com/gh/tylerreckart/hyperzsh.svg?style=svg)](https://circleci.com/gh/tylerreckart/hyperzsh)\n\n![Hyperzsh](screenshots/demo.gif)\n\nHyperzsh is a [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) shell theme that gives you a comprehensive overview of the branch you're working on and the status of your repository throughout the development process without cluttering your terminal.  \n\nIf currently shows:  \n- Git status\n- Timestamp\n- Current directory\n- [Current SHA](#current_sha)\n- Background jobs\n- Exit code of last command\n\n## Installation  \n### For [antigen](https://github.com/zsh-users/antigen) users\nAdd `antigen bundle tylerreckart/hyperzsh` to your `.zshrc`. Antigen will clone and load the hyperzsh repository automaticall the next time you start a zsh session.  \n\n### For [oh-my-zsh](http://ohmyz.sh) users  \nIf you're using oh-my-zsh, follow these steps to install hyperzsh:  \n`git clone https://github.com/tylerreckart/hyperzsh`  \n`cd hyperzsh && cp -R hyperzsh.zsh-theme ~/.oh-my-zsh/themes/hyperzsh.zsh-theme`  \n`vim ~/.zshrc`\nSet `ZSH_THEME=\"current_theme\"` to `ZSH_THEME=\"hyperzsh\"`  \n\n### For [Zgen](https://github.com/tarjoilija/zgen) users\nAdd `zgen load tylerreckart/hyperzsh` to your `.zshrc` with your other `zgen load` statements.  \n`zgen save` and zgen will automaticall handle cloning the repository for you.  \n\n## Color schemes  \nHyperzsh was built with Hyper.app in mind. The demo above uses my custom color scheme called [hyperblue](https://github.com/tylerreckart/hyperblue). More recently, I've built [hyperblue-vibrancy](https://github.com/tylerreckart/hyperblue-vibrancy). It brings in the same colorscheme as hyperblue, but leverages the Vibrancy API in macos. the You can automatically configure hyperblue by adding `'hyperblue'` or `'hyperblue-vibrancy'` to the plugins section in `~/.hyper.js`.  \n\n## Options  \nHyperzsh is highly configurable. It was build to seamlessly integrate git into my workflow, but my choices may not work for you. Everything from the icons to colors are customizable to whatever you will. Want to slap some emoji in there? Go for it!\n\n### Show current SHA <a name=\"current_sha\"></a>  \n\n![SHA Prompt](screenshots/sha_prompt.png)  \n\nIf you'd like to view your branch's current SHA, there's already support baked into the theme. All you have to do is edit `hyperzsh.zsh-theme` and comment out the default prompt while uncommenting the prompt that includes the SHA.  \n\n```zsh\n# The prompt\n# PROMPT='$(_user_host)$(_python_venv)%{$fg[cyan]%}%c $(git_prompt_info)%{$reset_color%}$(git_prompt_short_sha)%{$fg[magenta]%}$(_git_time_since_commit)$(git_prompt_status)${_return_status}➜ '\n\n# Prompt with SHA\nPROMPT='$(_user_host)$(_python_venv)%{$fg[cyan]%}%c $(git_prompt_info)%{$reset_color%}$(git_prompt_short_sha)%{$fg[magenta]%}$(_git_time_since_commit)$(git_prompt_status)${_return_status}➜ '\n```\n\n### Status Indicators  \n| Variable | Indicator | Meaning |\n|----------|-----------|---------|\n| `ZSH_THEME_GIT_PROMPT_UNTRACKED` | ◒ | Untracked files |\n| `ZSH_THEME_GIT_PROMPT_ADDED` | ✓ | Files added to git |\n| `ZSH_THEME_GIT_PROMPT_MODIFIED` | △ | Modified files |\n| `ZSH_THEME_GIT_PROMPT_DELETED` | ✖ | Deleted files |\n| `ZSH_THEME_GIT_PROMPT_RENAMED` | ➜ | Renamed files |\n| `ZSH_THEME_GIT_PROMPT_UNMERGED` | § | Unmerged files |\n| `ZSH_THEME_GIT_PROMPT_AHEAD` | ▲ | Repo ahead of current branch |\n| `ZSH_THEME_GIT_PROMPT_DIRTY` | ✗ | Dirty repository |\n\n### Right hand prompt  \nThe right hand prompt displays the current branch, time since last commit, as well as commit status of the repository  \n\n| Variable | Branch Color |\n|----------|--------------|\n| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_SHORT` | Green |\n| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_MEDIUM` | Yellow |\n| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_LONG`  | Red |\n| `ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL` | White |\n\n## License\nMIT (c) 2016 - 2017 [Tyler Reckart](https://github.com/tylerreckart)\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperzsh/-/hyperzsh-1.5.0.tgz#080b190f50ccbe6fcdf89c1bf47ae88e6f14be81",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperzsh/-/hyperzsh-1.5.0.tgz",
+    "hash": "080b190f50ccbe6fcdf89c1bf47ae88e6f14be81",
+    "registry": "npm",
+    "packageName": "hyperzsh"
+  },
+  "registry": "npm",
+  "hash": "080b190f50ccbe6fcdf89c1bf47ae88e6f14be81"
+}

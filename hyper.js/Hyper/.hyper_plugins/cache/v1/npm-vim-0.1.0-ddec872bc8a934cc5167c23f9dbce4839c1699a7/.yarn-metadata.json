@@ -1,0 +1,57 @@
+{
+  "manifest": {
+    "name": "vim",
+    "version": "0.1.0",
+    "description": "vim",
+    "keywords": [
+      "vim"
+    ],
+    "bin": {
+      "vim": "./bin/vim"
+    },
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/xudafeng/vim.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "co-mocha": "*",
+      "mocha": "*",
+      "should": "*",
+      "jshint": "*",
+      "istanbul": "*",
+      "pre-commit": "1.1.1"
+    },
+    "scripts": {
+      "test": "make test",
+      "jshint": "make jshint"
+    },
+    "pre-commit": [
+      "jshint"
+    ],
+    "homepage": "https://github.com/xudafeng/vim",
+    "author": {
+      "name": "xudafeng"
+    },
+    "email": "xudafeng@126.com",
+    "blog": "http://xdf.me",
+    "license": "MIT",
+    "_registry": "npm",
+    "_loc": "C:\\Users\\hanse\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-vim-0.1.0-ddec872bc8a934cc5167c23f9dbce4839c1699a7\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "vim\n====\n\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![node version][node-image]][node-url]\n[![npm download][download-image]][download-url]\n\n[npm-image]: https://img.shields.io/npm/v/vim.svg?style=flat-square\n[npm-url]: https://npmjs.org/package/vim\n[travis-image]: https://img.shields.io/travis/xudafeng/vim.svg?style=flat-square\n[travis-url]: https://travis-ci.org/xudafeng/vim\n[coveralls-image]: https://img.shields.io/coveralls/xudafeng/vim.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/xudafeng/vim?branch=master\n[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square\n[node-url]: http://nodejs.org/download/\n[download-image]: https://img.shields.io/npm/dm/vim.svg?style=flat-square\n[download-url]: https://npmjs.org/package/vim\n\n> vim\n\n## Installment\n\n```bash\n$ npm i vim -g\n```\n\n## Quick Start\n\n```bash\n$ vim\n```\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2015 xdf\n",
+    "licenseText": "The MIT License (MIT)\n\nCopyright (c) 2015 xdf\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/vim/-/vim-0.1.0.tgz#ddec872bc8a934cc5167c23f9dbce4839c1699a7",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/vim/-/vim-0.1.0.tgz",
+    "hash": "ddec872bc8a934cc5167c23f9dbce4839c1699a7",
+    "registry": "npm",
+    "packageName": "vim"
+  },
+  "registry": "npm",
+  "hash": "ddec872bc8a934cc5167c23f9dbce4839c1699a7"
+}

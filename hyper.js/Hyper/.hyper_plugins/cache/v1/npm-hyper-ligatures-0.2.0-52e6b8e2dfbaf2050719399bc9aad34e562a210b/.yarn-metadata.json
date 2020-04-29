@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "name": "hyper-ligatures",
+    "version": "0.2.0",
+    "description": "Enable font ligatures for Hyper",
+    "main": "index.js",
+    "author": {
+      "name": "Tim Neutkens"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/timneutkens/hyper-ligatures.git"
+    },
+    "_registry": "npm",
+    "_loc": "C:\\Users\\hanse\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyper-ligatures-0.2.0-52e6b8e2dfbaf2050719399bc9aad34e562a210b\\package.json",
+    "readmeFilename": "readme.md",
+    "readme": "# Hyper Ligatures\n\nAdds support for fonts with ligatures to Hyper. For example [Fira Code](https://github.com/tonsky/FiraCode).\n\n## Installation\n\nAdd `hyper-ligatures` to your `~/.hyper.js` `plugins` list.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-ligatures/-/hyper-ligatures-0.2.0.tgz#52e6b8e2dfbaf2050719399bc9aad34e562a210b",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-ligatures/-/hyper-ligatures-0.2.0.tgz",
+    "hash": "52e6b8e2dfbaf2050719399bc9aad34e562a210b",
+    "registry": "npm",
+    "packageName": "hyper-ligatures"
+  },
+  "registry": "npm",
+  "hash": "52e6b8e2dfbaf2050719399bc9aad34e562a210b"
+}

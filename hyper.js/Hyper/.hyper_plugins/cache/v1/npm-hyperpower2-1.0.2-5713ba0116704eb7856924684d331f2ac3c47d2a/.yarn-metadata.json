@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "name": "hyperpower2",
+    "version": "1.0.2",
+    "keywords": [
+      "hyper",
+      "hyperpower",
+      "hyperpower2",
+      "hyper.app",
+      "hyper-plugin"
+    ],
+    "description": "Extension for particle effects in Hyper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/razfriman/hyperpower"
+    },
+    "dependencies": {
+      "color": "^3.1.2",
+      "convert-css-color-name-to-hex": "^0.1.1",
+      "lodash.throttle": "^4.1.1",
+      "lodash.values": "^4.3.0",
+      "lodash.random": "^3.2.0"
+    },
+    "_registry": "npm",
+    "_loc": "C:\\Users\\hanse\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyperpower2-1.0.2-5713ba0116704eb7856924684d331f2ac3c47d2a\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "# Hyperpower\n\nExtension for Hyper that turns on power mode.\n\n- Simple configuration in `.hyper.js`\n\n![hyper](https://cloud.githubusercontent.com/assets/13041/16820268/13c9bfe6-4905-11e6-8fe4-baf8fc8d9293.gif)\n\n## How to use\n\nInstall [Hyper](https://hyper.is) and add `hyperpower2`\nto `plugins` in `~/.hyper.js`.\n\n## Configure\n\nAdd a `hyperPower` section to your hyper configuration (`~/.hyper.js`) with any of the following properties. Missing properties will use these default values:\n\n```js\nmodule.exports = {\n  config: {\n    // rest of the config\n    hyperPower: {\n      shake: false,\n      colorMode: 'cursor', // 'cursor', 'custom', 'rainbow'\n      colors: ['#eee'],\n      particleSize: 3,\n      minSpawnCount: 10,\n      maxSpawnCount: 12,\n      maximumParticles: 500\n    }\n  }\n  // rest of the file\n};\n```\n\n## Credits\n\nBased on [`power-mode`](https://atom.io/packages/power-mode) and\n[`rage-power`](https://github.com/itszero/rage-power) and\n[`hyperpower`](https://github.com/zeit/hyperpower).\n\n## License\n\nMIT\n",
+    "license": "MIT*"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperpower2/-/hyperpower2-1.0.2.tgz#5713ba0116704eb7856924684d331f2ac3c47d2a",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperpower2/-/hyperpower2-1.0.2.tgz",
+    "hash": "5713ba0116704eb7856924684d331f2ac3c47d2a",
+    "registry": "npm",
+    "packageName": "hyperpower2"
+  },
+  "registry": "npm",
+  "hash": "5713ba0116704eb7856924684d331f2ac3c47d2a"
+}

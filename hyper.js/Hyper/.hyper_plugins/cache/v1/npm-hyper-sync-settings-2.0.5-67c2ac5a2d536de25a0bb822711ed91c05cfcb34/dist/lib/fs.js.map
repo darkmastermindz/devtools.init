@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/lib/fs.js"],"names":["fsExtra"],"mappings":";;;;;;AAAA;;;;AACA;;;;kBAEe,4BAAaA,iBAAb,C","file":"fs.js","sourcesContent":["import fsExtra from 'fs-extra';\nimport { promisifyAll } from 'bluebird';\n\nexport default promisifyAll(fsExtra);\n"]}
